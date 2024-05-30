@@ -1,0 +1,76 @@
+body {
+  background-color: rgb(248, 241, 241);
+}
+
+.frame {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+.modal-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 280px;
+  height: 200px;
+  background-color: white;
+  box-shadow: 3px 3px 7px 3px rgb(162, 153, 153);
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 230px;
+  margin-top: 0px;
+  padding-bottom: 15px;
+}
+#modal-name {
+  margin-bottom: 0px;
+  padding-bottom: 5px;
+}
+.close {
+  border: 0px;
+  background-color: white;
+}
+.body-input {
+  height: 20px;
+  color: rgb(216, 209, 209);
+  border: 1px solid rgb(225, 220, 220);
+  padding-left: 5px;
+  font-weight: bold;
+}
+.modal-body {
+  display: flex;
+  flex-direction: column;
+  width: 230px;
+}
+label {
+  padding-bottom: 20px;
+}
+
+.modal-footer {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 25px;
+  width: 230px;
+}
+.submit-btn {
+  background-color: rgb(13, 32, 241);
+  color: white;
+  border: rgb(13, 32, 241);
+  border-radius: 3px;
+  width: 60px;
+  height: 25px;
+}
+.close-btn {
+  background-color: white;
+  color: rgb(13, 32, 241);
+  border: none;
+  border-radius: 3px;
+  width: 60px;
+  height: 25px;
+  font-weight: bolder;
+}
