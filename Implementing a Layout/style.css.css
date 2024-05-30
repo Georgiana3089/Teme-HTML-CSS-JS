@@ -1,0 +1,205 @@
+/* SECTIUNEA 1 */
+* {
+    margin : 0px;
+    padding: 0px;
+}
+.container {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.menu { 
+    width: 184px;
+    height: 45px;
+    background-color: #2265A9;
+    color: #ffff;
+    font-size: 13px;
+    text-align: center;
+    line-height: 3.5em;
+    cursor: pointer;
+    text-decoration: none;
+    flex: 1;
+}
+
+/* FINAL SECTIUNEA 1 */
+
+/* SECTIUNEA 2 */
+
+
+
+/* SECTIUNEA 4 */
+
+.card-album {
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    background-color: #f4ececf1;
+    box-sizing: content-box;
+    width: 300px;
+    padding: 20px 15px 1px 15px;
+}
+.card-img {
+    width:240px;
+    height: 90px;
+    
+}
+/* FINAL SECTIUNEA 4 */
+
+/* SECTIUNEA 5 */    
+    .wrapper {
+        float: initial;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .left-content {
+        width: 62%; 
+        float:left;
+    }
+    .left-content > img {
+        width: 200px;
+        height: 160px;
+        border: 3px solid #ffff;
+        outline: 1px solid black;
+        margin-right: 15px;
+        margin-top: 25px;
+        float:left;    
+    }
+    .left-content-text {
+        margin-top: 30px;
+        border: 5px
+    }
+
+    .left-content-title {
+        font-size: 20px;
+        font-weight: lighter;
+    }
+
+    .left-dotted {
+        border: dotted 1px rgba(0, 0, 0, 0.774);
+        border-bottom: 0px;
+    }
+
+    .left-content-body {
+        font-size: 13px;
+    }
+    .left-content-text :nth-last-child(1) {
+        text-decoration: none;
+        color:#2265A9;
+        margin-top: 10px;
+        display: flex; 
+        justify-content: flex-end;
+    }
+    .left-content-text span {  
+        font-size: 9px;
+
+    }
+    .left-dotted2 {
+        border: dotted 1px rgba(0, 0, 0, 0.774);
+        margin-bottom: 20px;
+    }
+    
+    .right-content {
+        width: 33%;
+        height: 200px;
+        margin-top: 25px;
+        
+        padding: 10px; 
+        background-color: #f6f6f6;
+        float: right;
+    }
+    
+    #title {
+        font-size: 20px;
+        color: #969696;
+        margin-bottom: 3px;
+    }
+    .right-content .interrupted {
+        border: dashed 2px rgb(175, 173, 173);
+        border-bottom: 0px;
+        font-size: larger;
+        margin-bottom: 15px;
+    }
+    .right-content .continuous {
+        border: initial rgb(175, 173, 173);
+        border-bottom: 1px;
+        font-size: larger;
+        margin-bottom: 10px;
+    }
+    
+    .right-content a {
+        text-decoration: none;
+        color: #2265A9;
+    }
+    .right-content span {
+        font-size: 9px;
+        padding-bottom: 10px;
+        font-weight: bolder;
+    }
+
+/* SFARSIT SECTIUNEA 5 */
+
+/* SECTIUNEA 6 */
+    .photo-album {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 10px;
+        margin-top: 20px;
+        clear: both;
+        margin-top: 50px;
+    }
+
+    .image {
+        background-color: rgba(0, 0, 0, 0.767);
+        width: 174px;
+        height: 100px;
+        border: 3px solid #ffff;
+        outline: 1px solid black;
+        flex: 1;
+    }
+    .details {
+        color: #ffff;
+        text-align: center;
+        margin-top: 40px;
+        font-size: 15px;
+    }
+
+/* FINAL SECTIUNEA 6 */
+
+
+/* SECTION 7 */
+
+#footer {
+    background-color: #2265A9;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    line-height: 40px;
+    margin-top: 20px;
+}
+.copyright {
+    color: #ffff;
+    font-size: 11px;
+    padding-left: 10px;
+}
+.template {
+    color: #ffff;
+    font-size: 11px;
+    padding-right: 10px;
+}
+
+
