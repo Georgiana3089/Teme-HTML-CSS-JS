@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+RO:wght@100..400&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Handlee&family=Mina:wght@400;700&family=Patrick+Hand+SC&family=Roboto+Slab:wght@100..900&family=Satisfy&display=swap");
+
+* {
+  font-family: "Playwrite RO", cursive;
+  font-optical-sizing: auto;
+  font-size: 24px;
+}
+
+/*------------------MENIU ------------------*/
+
+.navbar-color {
+  background-color: #ffd863;
+}
+.multicolor-title {
+  display: flex;
+  align-items: center;
+  margin-left: 0;
+  font-weight: bold;
+}
+
+img {
+  width: 90px;
+  height: 90px;
+  font-size: 32px;
+  margin-right: 10px;
+}
+.nav-link {
+  background-color: #0d926a;
+  color: #fff;
+  margin: 5px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 5px #7f7f7f;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+  background-color: #51c466;
+  color: #fff;
+}
+
+.nav-link:hover {
+  opacity: 0.9;
+  color: #fff;
+}
+
+.nav-link:focus {
+  outline: none;
+  color: #fff;
+}
+
+.dropdown-toggle .dropdown-title > .dropdown-item {
+  color: #0d926a;
+}
+
+.dropdown-item {
+  font-size: 18px;
+}
+
+.button-display {
+  text-align: center;
+  font-size: 24px;
+}
+
+/*------------------HERO--------------------*/
+
+.lead {
+  font-size: 18px;
+}
+
+.site-link {
+  font-size: 18px;
+  font-weight: bold;
+  color: #0d926a;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/*-------------LIKE & DISLIKE--------------------*/
+
+.post-rating-button {
+  font-size: 30px;
+  color: #0d926a;
+}
+
+.post-rating-button:hover {
+  color: #51c466;
+}
+
+/*------------------PROGRAM SI PRETURI--------------*/
+.p-section {
+  background-color: #ffd863;
+}
+.prices-title {
+  color: #0d926a;
+}
+
+.prices-text {
+  font-family: Handlee;
+  background-color: #51c466;
+}
+/*---------------------------FOOTER----------------------*/
+
+footer {
+  background-color: #ffd863;
+}

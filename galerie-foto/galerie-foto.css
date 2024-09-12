@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+RO:wght@100..400&display=swap");
+
+* {
+  font-family: "Playwrite RO", cursive;
+  font-optical-sizing: auto;
+  font-size: 24px;
+}
+
+/* ----------------MENU----------------- */
+
+.navbar-color {
+  background-color: #ffd863;
+}
+.multicolor-title {
+  display: flex;
+  align-items: center;
+  margin-left: 0;
+  font-weight: bold;
+}
+
+.logo {
+  width: 90px;
+  height: 90px;
+  font-size: 32px;
+  margin-right: 10px;
+}
+.nav-link {
+  background-color: #0d926a;
+  color: #fff;
+  margin: 5px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 5px #7f7f7f;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+  background-color: #51c466;
+  color: #fff;
+}
+
+.nav-link:hover {
+  opacity: 0.9;
+  color: #fff;
+}
+
+.nav-link:focus {
+  outline: none;
+  color: #fff;
+}
+
+.dropdown-toggle .dropdown-title > .dropdown-item {
+  color: #0d926a;
+}
+
+.dropdown-item {
+  font-size: 18px;
+}
+
+.button-display {
+  text-align: center;
+  font-size: 24px;
+}
+
+/*------------- HERO -------------*/
+
+.carousel-description {
+  margin-top: 50px;
+  color: #0d926a;
+}
+
+/* ----------------GALERIE----------- */
+
+h1 {
+  color: #000000;
+}
+
+.carousel-inner .carousel-item > img {
+  width: 90%;
+  height: 800px;
+  margin: 0 auto;
+  object-fit: cover;
+}
+
+.svg-album {
+  margin-top: 100px;
+}
+
+/*------------ FOOTER --------------*/
+
+footer {
+  background-color: #ffd863;
+}
